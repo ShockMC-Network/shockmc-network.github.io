@@ -1,0 +1,11 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Debug",
+            "command": "bundle", // Could be any other shell command
+            "args": ["exec", "jekyll", "serve"],
+            "type": "shell"
+        }
+    ]
+}
