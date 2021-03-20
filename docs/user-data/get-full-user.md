@@ -5,6 +5,7 @@ parent: User Data
 nav_order: 0
 nav_exclude: false
 description: "Get full user information"
+permalink: docs/user-data/get-full-user
 ---
 # Layout Utilities
 {: .no_toc }
@@ -19,7 +20,6 @@ description: "Get full user information"
 
 ## End-Point
 
-<br/>
 
 ```
 https://api.shockmc.it/v1/userdata/getfulluser
@@ -35,7 +35,6 @@ https://api.shockmc.it/v1/userdata/getfulluser
 
 ## Request json data 
 
-<br/>
 
 The request must have the following data or the request will fail.
 
@@ -51,7 +50,6 @@ Username must match the following REGEX or the request will fail. ```[a-zA-Z0-9_
 
 ## Request response
 
-<br/>
 
 #### Response if the request has invalid data or username
 

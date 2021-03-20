@@ -5,6 +5,7 @@ parent: User Data
 nav_order: 1
 nav_exclude: false
 description: "Get level information"
+permalink: docs/user-data/get-level
 ---
 # Layout Utilities
 {: .no_toc }
@@ -19,7 +20,6 @@ description: "Get level information"
 
 ## End-Point
 
-<br/>
 
 ```
 https://api.shockmc.it/v1/userdata/getlevel
@@ -35,8 +35,6 @@ https://api.shockmc.it/v1/userdata/getlevel
 
 ## Request json data 
 
-<br/>
-
 The request must have the following data or the request will fail.
 
 ```json
@@ -51,7 +49,6 @@ Username must match the following REGEX or the request will fail. ```[a-zA-Z0-9_
 
 ## Request response
 
-<br/>
 
 #### Response if the request has invalid data or username
 

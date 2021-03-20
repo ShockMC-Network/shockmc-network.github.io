@@ -5,6 +5,7 @@ parent: User Data
 nav_order: 2
 nav_exclude: false
 description: "Get Registration date information"
+permalink: docs/user-data/get-registration-date
 ---
 # Layout Utilities
 {: .no_toc }
@@ -18,8 +19,6 @@ description: "Get Registration date information"
 ---
 
 ## End-Point
-
-<br/>
 
 ```
 https://api.shockmc.it/v1/userdata/getregistrationdate
@@ -35,8 +34,6 @@ https://api.shockmc.it/v1/userdata/getregistrationdate
 
 ## Request json data 
 
-<br/>
-
 The request must have the following data or the request will fail.
 
 ```json
@@ -50,8 +47,6 @@ Username must match the following REGEX or the request will fail. ```[a-zA-Z0-9_
 <br/>
 
 ## Request response
-
-<br/>
 
 #### Response if the request has invalid data or username
 

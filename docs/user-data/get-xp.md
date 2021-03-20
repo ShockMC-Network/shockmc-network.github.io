@@ -5,6 +5,7 @@ parent: User Data
 nav_order: 5
 nav_exclude: false
 description: "Get xp information"
+permalink: docs/user-data/get-xp
 ---
 # Layout Utilities
 {: .no_toc }
