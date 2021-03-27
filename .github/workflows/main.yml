@@ -1,5 +1,4 @@
 name: Jekyll Deploy
-
 on:
   push:
     branches:
