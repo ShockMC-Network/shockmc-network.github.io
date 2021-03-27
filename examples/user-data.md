@@ -217,7 +217,7 @@ Different examples for python
 
 #### Imports
 
-```python3
+```python
 import asyncio
 import aiohttp
 ```
@@ -225,7 +225,7 @@ import aiohttp
 
 #### Code snippet
 
-```python3
+```python
 async def request(**kwargs):
     async with aiohttp.ClientSession() as session:
         async with session.post('https://api.shockmc.it/v1/userdata/getfulluser', json=kwargs) as response:
@@ -241,14 +241,14 @@ print(res)
 
 #### Imports
 
-```python3
+```python
 import requests
 ```
 <br/>
 
 #### Code snippet
 
-```python3
+```python
 def request(**kwargs):
     res = requests.post('https://api.shockmc.it/v1/userdata/getfulluser', json=kwargs)
     return res.json()
