@@ -208,3 +208,53 @@ request()
 ```
 
 <br/>
+
+## Python Examples
+
+Different examples for python
+
+### Python with aiohttp (async)
+
+#### Imports
+
+```python3
+import asyncio
+import aiohttp
+```
+<br/>
+
+#### Code snippet
+
+```python3
+async def request(**kwargs):
+    async with aiohttp.ClientSession() as session:
+        async with session.post('https://api.shockmc.it/v1/userdata/getfulluser', json=kwargs) as response:
+            return await response.json()
+
+res = asyncio.run(request(username='iim_rudy'))
+print(res)
+```
+
+<br/>
+
+### Python with requests (sync)
+
+#### Imports
+
+```python3
+import requests
+```
+<br/>
+
+#### Code snippet
+
+```python3
+def request(**kwargs):
+    res = requests.post('https://api.shockmc.it/v1/userdata/getfulluser', json=kwargs)
+    return res.json()
+
+res = request(username='iim_rudy')
+print(res)
+```
+
+<br/>
