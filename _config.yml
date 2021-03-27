@@ -38,6 +38,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - LICENSE
 
 # Build settings
 #theme: just-the-docs
