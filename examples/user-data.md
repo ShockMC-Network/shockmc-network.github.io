@@ -24,7 +24,7 @@ nav_order: 0
 This code snippets are made for the endpoint [get-full-user](/docs/user-data/get-full-user) but you can also use them for all the other user-data endpoints by changing the url in the code.
 <br/>
 
-## Java examples 
+## Java examples
 
 Different examples for java
 
@@ -43,7 +43,7 @@ import java.nio.charset.StandardCharsets;
 ```
 <br/>
 
-#### Code snippet 
+#### Code snippet
 
 ```java
 final String data = "{\"username\": \"iim_rudy\"}"; // json {"username": "iim_rudy"}
@@ -92,7 +92,7 @@ import java.net.http.HttpResponse;
 ```
 <br/>
 
-#### Code snippet 
+#### Code snippet
 
 ```java
 final String data = "{\"username\": \"iim_rudy\"}"; // json {"username": "iim_rudy"}
@@ -145,7 +145,7 @@ import java.util.Scanner;
 ```
 <br>
 
-#### Code snippet 
+#### Code snippet
 
 ```java
 final String data = "{\"username\": \"iim_rudy\"}"; // json {"username": "iim_rudy"}
@@ -170,3 +170,41 @@ try {
     exception.printStackTrace();
 }
 ```
+<br/>
+
+## Javascript Examples
+
+Asynchronous example for Javascript
+
+#### Imports
+
+```javascript
+const axios = require('axios').default;
+```
+<br/>
+
+#### Code snippet
+
+```javascript
+async function request(){
+  try {
+    let res = await axios({
+      method: "POST",
+      url: "https://api.shockmc.it/v1/userdata/getfulluser",
+      data: {
+        username: 'iim_rudy'
+      }
+    });
+    return res;
+  } catch (err) {
+    return err;
+  }
+}
+
+request()
+.then((res) => {
+  console.log(res.data);
+});
+```
+
+<br/>
