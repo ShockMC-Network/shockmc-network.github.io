@@ -11,6 +11,7 @@ gem 'jekyll', '>= 3.9.0'
 gem "just-the-docs", ">= 0.3.3"
 gem 'github-pages-health-check', '>= 1.17'
 gem "kramdown", ">= 2.3.0"
+gem "activesupport", ">= 4.1.11"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
