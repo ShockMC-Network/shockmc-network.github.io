@@ -10,7 +10,7 @@ source "https://rubygems.org"
 gem 'jekyll', '>= 3.9.0'
 gem "just-the-docs", ">= 0.3.3"
 gem 'github-pages-health-check', '>= 1.17'
-gem "kramdown", ">= 2.3.0"
+gem "kramdown", ">= 2.3.1"
 gem "activesupport", ">= 4.1.11"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -18,7 +18,7 @@ gem "activesupport", ">= 4.1.11"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", ">= 0.15.1"
-  gem 'github-pages', '>= 213'
+  #gem 'github-pages', '>= 213'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
