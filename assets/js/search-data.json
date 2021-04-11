@@ -1,0 +1,302 @@
+{"0": {
+    "doc": "About",
+    "title": "About",
+    "content": " ",
+    "url": "/about/",
+    "relUrl": "/about/"
+  },"1": {
+    "doc": "Requests Example",
+    "title": "Info",
+    "content": "Small snippets of code for making requests . ",
+    "url": "/examples/#info",
+    "relUrl": "/examples/#info"
+  },"2": {
+    "doc": "Requests Example",
+    "title": "Requests Example",
+    "content": " ",
+    "url": "/examples/",
+    "relUrl": "/examples/"
+  },"3": {
+    "doc": "Get Full User",
+    "title": "Layout Utilities",
+    "content": " ",
+    "url": "/docs/user-data/get-full-user#layout-utilities",
+    "relUrl": "/docs/user-data/get-full-user#layout-utilities"
+  },"4": {
+    "doc": "Get Full User",
+    "title": "Table of contents",
+    "content": ". | End-Point | Request json data | Request response . | Response if the request has invalid data or username | Response if the user never joined the server | Response if success | . | . ",
+    "url": "/docs/user-data/get-full-user#table-of-contents",
+    "relUrl": "/docs/user-data/get-full-user#table-of-contents"
+  },"5": {
+    "doc": "Get Full User",
+    "title": "End-Point",
+    "content": "https://api.shockmc.it/v1/userdata/getfulluser . | Method | Allowed | . | GET | ✅ | . | POST | ✅ | . ",
+    "url": "/docs/user-data/get-full-user#end-point",
+    "relUrl": "/docs/user-data/get-full-user#end-point"
+  },"6": {
+    "doc": "Get Full User",
+    "title": "Request json data",
+    "content": "The request must have the following data or the request will fail. { \"username\": \"player's username\" } . Username must match the following REGEX or the request will fail. [a-zA-Z0-9_]{1,16} . ",
+    "url": "/docs/user-data/get-full-user#request-json-data",
+    "relUrl": "/docs/user-data/get-full-user#request-json-data"
+  },"7": {
+    "doc": "Get Full User",
+    "title": "Request response",
+    "content": "Response if the request has invalid data or username . { \"error\": true, \"description\": \"Invalid data or invalid username.\" } . Response if the user never joined the server . { \"error\": true, \"description\": \"Userdata not found.\" } . Response if success . { \"error\": \"false\", \"description\": \"\", \"username\": \"\", # Username of the user \"role\": \"\", # Role of the user \"registration_date\": 0, # Date when the user registered on the server \"xp\": 0, # Experience of the user \"level\": 0, # Level of the user \"rewards\": 0 # How many rewards does the player have } . ",
+    "url": "/docs/user-data/get-full-user#request-response",
+    "relUrl": "/docs/user-data/get-full-user#request-response"
+  },"8": {
+    "doc": "Get Full User",
+    "title": "Get Full User",
+    "content": " ",
+    "url": "/docs/user-data/get-full-user",
+    "relUrl": "/docs/user-data/get-full-user"
+  },"9": {
+    "doc": "Get Level",
+    "title": "Layout Utilities",
+    "content": " ",
+    "url": "/docs/user-data/get-level#layout-utilities",
+    "relUrl": "/docs/user-data/get-level#layout-utilities"
+  },"10": {
+    "doc": "Get Level",
+    "title": "Table of contents",
+    "content": ". | End-Point | Request json data | Request response . | Response if the request has invalid data or username | Response if the user never joined the server | Response if success | . | . ",
+    "url": "/docs/user-data/get-level#table-of-contents",
+    "relUrl": "/docs/user-data/get-level#table-of-contents"
+  },"11": {
+    "doc": "Get Level",
+    "title": "End-Point",
+    "content": "https://api.shockmc.it/v1/userdata/getlevel . | Method | Allowed | . | GET | ✅ | . | POST | ✅ | . ",
+    "url": "/docs/user-data/get-level#end-point",
+    "relUrl": "/docs/user-data/get-level#end-point"
+  },"12": {
+    "doc": "Get Level",
+    "title": "Request json data",
+    "content": "The request must have the following data or the request will fail. { \"username\": \"player's username\" } . Username must match the following REGEX or the request will fail. [a-zA-Z0-9_]{1,16} . ",
+    "url": "/docs/user-data/get-level#request-json-data",
+    "relUrl": "/docs/user-data/get-level#request-json-data"
+  },"13": {
+    "doc": "Get Level",
+    "title": "Request response",
+    "content": "Response if the request has invalid data or username . { \"error\": true, \"description\": \"Invalid data or invalid username.\" } . Response if the user never joined the server . { \"error\": true, \"description\": \"Userdata not found.\" } . Response if success . { \"error\": \"false\", \"description\": \"\", \"username\": \"\", # Username of the user \"level\": 0 # Level of the user } . ",
+    "url": "/docs/user-data/get-level#request-response",
+    "relUrl": "/docs/user-data/get-level#request-response"
+  },"14": {
+    "doc": "Get Level",
+    "title": "Get Level",
+    "content": " ",
+    "url": "/docs/user-data/get-level",
+    "relUrl": "/docs/user-data/get-level"
+  },"15": {
+    "doc": "Get Registration Date",
+    "title": "Layout Utilities",
+    "content": " ",
+    "url": "/docs/user-data/get-registration-date#layout-utilities",
+    "relUrl": "/docs/user-data/get-registration-date#layout-utilities"
+  },"16": {
+    "doc": "Get Registration Date",
+    "title": "Table of contents",
+    "content": ". | End-Point | Request json data | Request response . | Response if the request has invalid data or username | Response if the user never joined the server | Response if success | . | . ",
+    "url": "/docs/user-data/get-registration-date#table-of-contents",
+    "relUrl": "/docs/user-data/get-registration-date#table-of-contents"
+  },"17": {
+    "doc": "Get Registration Date",
+    "title": "End-Point",
+    "content": "https://api.shockmc.it/v1/userdata/getregistrationdate . | Method | Allowed | . | GET | ✅ | . | POST | ✅ | . ",
+    "url": "/docs/user-data/get-registration-date#end-point",
+    "relUrl": "/docs/user-data/get-registration-date#end-point"
+  },"18": {
+    "doc": "Get Registration Date",
+    "title": "Request json data",
+    "content": "The request must have the following data or the request will fail. { \"username\": \"player's username\" } . Username must match the following REGEX or the request will fail. [a-zA-Z0-9_]{1,16} . ",
+    "url": "/docs/user-data/get-registration-date#request-json-data",
+    "relUrl": "/docs/user-data/get-registration-date#request-json-data"
+  },"19": {
+    "doc": "Get Registration Date",
+    "title": "Request response",
+    "content": "Response if the request has invalid data or username . { \"error\": true, \"description\": \"Invalid data or invalid username.\" } . Response if the user never joined the server . { \"error\": true, \"description\": \"Userdata not found.\" } . Response if success . { \"error\": \"false\", \"description\": \"\", \"username\": \"\", # Username of the user \"registration_date\": 0 # Date when the user registered on the server } . ",
+    "url": "/docs/user-data/get-registration-date#request-response",
+    "relUrl": "/docs/user-data/get-registration-date#request-response"
+  },"20": {
+    "doc": "Get Registration Date",
+    "title": "Get Registration Date",
+    "content": " ",
+    "url": "/docs/user-data/get-registration-date",
+    "relUrl": "/docs/user-data/get-registration-date"
+  },"21": {
+    "doc": "Get Rewards",
+    "title": "Layout Utilities",
+    "content": " ",
+    "url": "/docs/user-data/get-rewards#layout-utilities",
+    "relUrl": "/docs/user-data/get-rewards#layout-utilities"
+  },"22": {
+    "doc": "Get Rewards",
+    "title": "Table of contents",
+    "content": ". | End-Point | Request json data | Request response . | Response if the request has invalid data or username | Response if the user never joined the server | Response if success | . | . ",
+    "url": "/docs/user-data/get-rewards#table-of-contents",
+    "relUrl": "/docs/user-data/get-rewards#table-of-contents"
+  },"23": {
+    "doc": "Get Rewards",
+    "title": "End-Point",
+    "content": "https://api.shockmc.it/v1/userdata/getrewards . | Method | Allowed | . | GET | ✅ | . | POST | ✅ | . ",
+    "url": "/docs/user-data/get-rewards#end-point",
+    "relUrl": "/docs/user-data/get-rewards#end-point"
+  },"24": {
+    "doc": "Get Rewards",
+    "title": "Request json data",
+    "content": "The request must have the following data or the request will fail. { \"username\": \"player's username\" } . Username must match the following REGEX or the request will fail. [a-zA-Z0-9_]{1,16} . ",
+    "url": "/docs/user-data/get-rewards#request-json-data",
+    "relUrl": "/docs/user-data/get-rewards#request-json-data"
+  },"25": {
+    "doc": "Get Rewards",
+    "title": "Request response",
+    "content": "Response if the request has invalid data or username . { \"error\": true, \"description\": \"Invalid data or invalid username.\" } . Response if the user never joined the server . { \"error\": true, \"description\": \"Userdata not found.\" } . Response if success . { \"error\": \"false\", \"description\": \"\", \"username\": \"\", # Username of the user \"rewards\": 0 # How many rewards does the player have } . ",
+    "url": "/docs/user-data/get-rewards#request-response",
+    "relUrl": "/docs/user-data/get-rewards#request-response"
+  },"26": {
+    "doc": "Get Rewards",
+    "title": "Get Rewards",
+    "content": " ",
+    "url": "/docs/user-data/get-rewards",
+    "relUrl": "/docs/user-data/get-rewards"
+  },"27": {
+    "doc": "Get Role",
+    "title": "Layout Utilities",
+    "content": " ",
+    "url": "/docs/user-data/get-role#layout-utilities",
+    "relUrl": "/docs/user-data/get-role#layout-utilities"
+  },"28": {
+    "doc": "Get Role",
+    "title": "Table of contents",
+    "content": ". | End-Point | Request json data | Request response . | Response if the request has invalid data or username | Response if the user never joined the server | Response if success | . | . ",
+    "url": "/docs/user-data/get-role#table-of-contents",
+    "relUrl": "/docs/user-data/get-role#table-of-contents"
+  },"29": {
+    "doc": "Get Role",
+    "title": "End-Point",
+    "content": "https://api.shockmc.it/v1/userdata/getrole . | Method | Allowed | . | GET | ✅ | . | POST | ✅ | . ",
+    "url": "/docs/user-data/get-role#end-point",
+    "relUrl": "/docs/user-data/get-role#end-point"
+  },"30": {
+    "doc": "Get Role",
+    "title": "Request json data",
+    "content": "The request must have the following data or the request will fail. { \"username\": \"player's username\" } . Username must match the following REGEX or the request will fail. [a-zA-Z0-9_]{1,16} . ",
+    "url": "/docs/user-data/get-role#request-json-data",
+    "relUrl": "/docs/user-data/get-role#request-json-data"
+  },"31": {
+    "doc": "Get Role",
+    "title": "Request response",
+    "content": "Response if the request has invalid data or username . { \"error\": true, \"description\": \"Invalid data or invalid username.\" } . Response if the user never joined the server . { \"error\": true, \"description\": \"Userdata not found.\" } . Response if success . { \"error\": \"false\", \"description\": \"\", \"username\": \"\", # Username of the user \"role\": \"\" # Role of the user } . ",
+    "url": "/docs/user-data/get-role#request-response",
+    "relUrl": "/docs/user-data/get-role#request-response"
+  },"32": {
+    "doc": "Get Role",
+    "title": "Get Role",
+    "content": " ",
+    "url": "/docs/user-data/get-role",
+    "relUrl": "/docs/user-data/get-role"
+  },"33": {
+    "doc": "Get XP",
+    "title": "Layout Utilities",
+    "content": " ",
+    "url": "/docs/user-data/get-xp#layout-utilities",
+    "relUrl": "/docs/user-data/get-xp#layout-utilities"
+  },"34": {
+    "doc": "Get XP",
+    "title": "Table of contents",
+    "content": ". | End-Point | Request json data | Request response . | Response if the request has invalid data or username | Response if the user never joined the server | Response if success | . | . ",
+    "url": "/docs/user-data/get-xp#table-of-contents",
+    "relUrl": "/docs/user-data/get-xp#table-of-contents"
+  },"35": {
+    "doc": "Get XP",
+    "title": "End-Point",
+    "content": ". https://api.shockmc.it/v1/userdata/getxp . | Method | Allowed | . | GET | ✅ | . | POST | ✅ | . ",
+    "url": "/docs/user-data/get-xp#end-point",
+    "relUrl": "/docs/user-data/get-xp#end-point"
+  },"36": {
+    "doc": "Get XP",
+    "title": "Request json data",
+    "content": ". The request must have the following data or the request will fail. { \"username\": \"player's username\" } . Username must match the following REGEX or the request will fail. [a-zA-Z0-9_]{1,16} . ",
+    "url": "/docs/user-data/get-xp#request-json-data",
+    "relUrl": "/docs/user-data/get-xp#request-json-data"
+  },"37": {
+    "doc": "Get XP",
+    "title": "Request response",
+    "content": ". Response if the request has invalid data or username . { \"error\": true, \"description\": \"Invalid data or invalid username.\" } . Response if the user never joined the server . { \"error\": true, \"description\": \"Userdata not found.\" } . Response if success . { \"error\": \"false\", \"description\": \"\", \"username\": \"\", # Username of the user \"role\": \"\", # Rank of the user \"xp\": 0 # Experience of the user } . ",
+    "url": "/docs/user-data/get-xp#request-response",
+    "relUrl": "/docs/user-data/get-xp#request-response"
+  },"38": {
+    "doc": "Get XP",
+    "title": "Get XP",
+    "content": " ",
+    "url": "/docs/user-data/get-xp",
+    "relUrl": "/docs/user-data/get-xp"
+  },"39": {
+    "doc": "Home",
+    "title": "Home Page",
+    "content": ". ",
+    "url": "/#home-page",
+    "relUrl": "/#home-page"
+  },"40": {
+    "doc": "Home",
+    "title": "Getting started",
+    "content": " ",
+    "url": "/#getting-started",
+    "relUrl": "/#getting-started"
+  },"41": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "/",
+    "relUrl": "/"
+  },"42": {
+    "doc": "User Data Examples",
+    "title": "Layout Utilities",
+    "content": " ",
+    "url": "/examples/user-data#layout-utilities",
+    "relUrl": "/examples/user-data#layout-utilities"
+  },"43": {
+    "doc": "User Data Examples",
+    "title": "Table of contents",
+    "content": ". | Parameters | Java examples . | Java version 8 and plus . | Imports | Code snippet | . | Java version 11 and plus . | Imports | Code snippet | . | Java with Apache HttpClient library . | Dependencies | Maven dependency | Imports | Code snippet | . | . | Javascript Examples . | Imports | Code snippet | . | Python Examples . | Python with aiohttp (async) . | Imports | Code snippet | . | Python with requests (sync) . | Imports | Code snippet | . | . | . ",
+    "url": "/examples/user-data#table-of-contents",
+    "relUrl": "/examples/user-data#table-of-contents"
+  },"44": {
+    "doc": "User Data Examples",
+    "title": "Parameters",
+    "content": "‘Get Full User’ documentation . This code snippets are made for the endpoint get-full-user but you can also use them for all the other user-data endpoints by changing the url in the code. ",
+    "url": "/examples/user-data#parameters",
+    "relUrl": "/examples/user-data#parameters"
+  },"45": {
+    "doc": "User Data Examples",
+    "title": "Java examples",
+    "content": "Different examples for java . Java version 8 and plus . Imports . import java.io.BufferedReader; import java.io.InputStreamReader; import java.io.OutputStream; import java.net.HttpURLConnection; import java.net.URL; import java.nio.charset.StandardCharsets; . Code snippet . final String data = \"{\\\"username\\\": \\\"iim_rudy\\\"}\"; // json {\"username\": \"iim_rudy\"} HttpURLConnection connection; try { connection = (HttpURLConnection) new URL(\"https://api.shockmc.it/v1/userdata/getfulluser\").openConnection(); connection.setRequestMethod(\"POST\"); connection.setRequestProperty(\"Content-Type\", \"application/json; utf-8\"); // contents must be json and utf-8 connection.setDoOutput(true); OutputStream stream = connection.getOutputStream(); stream.write(data.getBytes(StandardCharsets.UTF_8)); stream.flush(); stream.close(); // now we need the response so: BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream())); final StringBuilder builder = new StringBuilder(); String appender; while ((appender = reader.readLine()) != null) { builder.append(appender); } reader.close(); // we can close the reader, we don't need it anymore String response = builder.toString(); System.out.println(\"Java httpURLConnection response --&gt; \" + response); // or builder.toString(); } catch (Exception ex) { ex.printStackTrace(); } . Java version 11 and plus . Imports . import java.io.IOException; import java.net.URI; import java.net.http.HttpClient; import java.net.http.HttpRequest; import java.net.http.HttpResponse; . Code snippet . final String data = \"{\\\"username\\\": \\\"iim_rudy\\\"}\"; // json {\"username\": \"iim_rudy\"} HttpClient httpClient = HttpClient.newBuilder().build(); final HttpRequest.BodyPublisher publisher = HttpRequest.BodyPublishers.ofString(data); HttpRequest request = HttpRequest.newBuilder().uri(URI.create(\"https://api.shockmc.it/v1/userdata/getfulluser\")).POST(publisher).build(); try { HttpResponse&lt;String&gt; response = httpClient.send(request, java.net.http.HttpResponse.BodyHandlers.ofString()); System.out.println(\"Java11 httpClient response --&gt; \"response.body()); } catch (IOException exception) { exception.printStackTrace(); } catch (InterruptedException e) { e.printStackTrace(); } . Java with Apache HttpClient library . Dependencies . | org.apache.httpcomponents httpclient, version used 4.5.13 | . Maven dependency . &lt;dependency&gt; &lt;groupId&gt;org.apache.httpcomponents&lt;/groupId&gt; &lt;artifactId&gt;httpclient&lt;/artifactId&gt; &lt;version&gt;4.5.13&lt;/version&gt; &lt;/dependency&gt; . Imports . import org.apache.http.HttpResponse; import org.apache.http.client.methods.HttpPost; import org.apache.http.entity.ContentType; import org.apache.http.entity.StringEntity; import org.apache.http.impl.client.CloseableHttpClient; import org.apache.http.impl.client.HttpClientBuilder; import java.io.IOException; import java.util.Scanner; . Code snippet . final String data = \"{\\\"username\\\": \\\"iim_rudy\\\"}\"; // json {\"username\": \"iim_rudy\"} final StringEntity entity = new StringEntity(data, ContentType.APPLICATION_FORM_URLENCODED); final CloseableHttpClient httpClient = HttpClientBuilder.create().build(); final HttpPost request = new HttpPost(\"https://api.shockmc.it/v1/userdata/getfulluser\"); request.setEntity(entity); HttpResponse response = null; try { response = httpClient.execute(request); final Scanner sc = new Scanner(response.getEntity().getContent()); final StringBuilder builder = new StringBuilder(); while (sc.hasNext()) { builder.append(sc.nextLine()); } System.out.println(\"Apache HTTPClient Response --&gt; \" + builder.toString()); httpClient.close(); } catch (IOException exception) { exception.printStackTrace(); } . ",
+    "url": "/examples/user-data#java-examples",
+    "relUrl": "/examples/user-data#java-examples"
+  },"46": {
+    "doc": "User Data Examples",
+    "title": "Javascript Examples",
+    "content": "Asynchronous example for Javascript . Imports . const axios = require('axios').default; . Code snippet . async function request(){ try { let res = await axios({ method: \"POST\", url: \"https://api.shockmc.it/v1/userdata/getfulluser\", data: { username: 'iim_rudy' } }); return res; } catch (err) { return err; } } request() .then((res) =&gt; { console.log(res.data); }); . ",
+    "url": "/examples/user-data#javascript-examples",
+    "relUrl": "/examples/user-data#javascript-examples"
+  },"47": {
+    "doc": "User Data Examples",
+    "title": "Python Examples",
+    "content": "Different examples for python . Python with aiohttp (async) . Imports . import asyncio import aiohttp . Code snippet . async def request(**kwargs): async with aiohttp.ClientSession() as session: async with session.post('https://api.shockmc.it/v1/userdata/getfulluser', json=kwargs) as response: return await response.json() res = asyncio.run(request(username='iim_rudy')) print(res) . Python with requests (sync) . Imports . import requests . Code snippet . def request(**kwargs): res = requests.post('https://api.shockmc.it/v1/userdata/getfulluser', json=kwargs) return res.json() res = request(username='iim_rudy') print(res) . ",
+    "url": "/examples/user-data#python-examples",
+    "relUrl": "/examples/user-data#python-examples"
+  },"48": {
+    "doc": "User Data Examples",
+    "title": "User Data Examples",
+    "content": " ",
+    "url": "/examples/user-data",
+    "relUrl": "/examples/user-data"
+  },"49": {
+    "doc": "User Data",
+    "title": "User Data",
+    "content": "End-Point to fetch user data information like xp, level, rank. ",
+    "url": "/docs/user-data",
+    "relUrl": "/docs/user-data"
+  }
+}
